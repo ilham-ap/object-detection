@@ -24,7 +24,7 @@ import cv2
 model = YOLO('yolov8n.pt')  # Load an official Detect model
 results = model.track(source='rtsp://2.tcp.ngrok.io:16976/h264.sdp', show=True)  # Tracking with default tracker
 ```
-#### 5. open ip webcam on android and run script on your terminal
+#### 5. open ip webcam on android and run script on your terminal <br/>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nQ-eMwcqYIQ" frameborder="0" allowfullscreen></iframe>
 
 
